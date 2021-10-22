@@ -1,0 +1,28 @@
+{
+  "name": "me",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@auth0/auth0-spa-js": "^1.14.0",
+    "@nuxt/content": "^1.14.0",
+    "@nuxt/http": "^0.6.4",
+    "@tailwindcss/typography": "^0.4.0",
+    "body-parser": "^1.19.0",
+    "core-js": "2",
+    "express": "^4.17.1",
+    "nuxt": "^2.15.3",
+    "prism-themes": "^1.6.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^4.0.1",
+    "@tailwindcss/jit": "^0.1.18",
+    "concurrently": "^6.0.2",
+    "postcss": "^8.2.8"
+  }
+}
